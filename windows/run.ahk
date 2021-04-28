@@ -3,7 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-SetCapsLockState, AlwaysOff
+; SetCapsLockState, AlwaysOff
 
 CapsLock & i::Send, {blind}{Up}
 CapsLock & j::Send, {blind}{Left}
@@ -21,3 +21,6 @@ CapsLock & m::Send, {blind}{Insert}
 ; Speed
 CapsLock & s::Send, {blind}^{Left 5}
 CapsLock & f::Send, {blind}^{Right 5}
+
+; Features
+; CapsLock & b::Send, {blind}^{Left 2}
