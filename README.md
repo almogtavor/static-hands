@@ -5,6 +5,12 @@
 
 Install [AutoHotKey](https://www.autohotkey.com/), clone project, open hands-position-fixed-keyboard --> Windows --> open run.ahk with AutoHotkey.
 
+#### To put ahk into effect automatically every time PC start
+
+* Select run.ahk, and press Ctrl+C.
+* Press Win+R to open the Run dialog, then enter shell:startup and click OK or Enter. This will open the Startup folder for the current user. To instead open the folder for all users, enter shell:common startup (however, in that case you must be an administrator to proceed).
+* Right click inside the window, and click "Paste Shortcut". The shortcut to the script should now be in the Startup folder.
+
 ## Available commands
 
 ### Basic Features
