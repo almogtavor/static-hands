@@ -20,7 +20,6 @@ Install [AutoHotKey](https://www.autohotkey.com/), clone project, open hands-pos
 |CapsLock+h| Delete|
 |CapsLock+;| Backspace|
 |CapsLock+m| Insert|
-|CapsLock+h| Go Up/Down 10 line.|
 |CapsLock+y| PageUp|
 |CapsLock+n| PageDown|
 
