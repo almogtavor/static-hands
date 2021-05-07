@@ -15,7 +15,7 @@ CapsLock & h::Send, {blind}{delete}
 CapsLock & y::Send, {blind}{PgUp}
 CapsLock & n::Send, {blind}{PgDn}
 CapsLock & `;::Send, {blind}{Backspace}
-CapsLock & m::Send, {blind}{Insert}
+CapsLock & p::Send, {blind}{Insert}
 
 CapsLock & f::Ctrl
 CapsLock & d::Shift
@@ -23,8 +23,8 @@ CapsLock & s::Alt
 CapsLock & w::LWin
 
 ; Speed
-; CapsLock & s::Send, {blind}^{Left 5}
-; CapsLock & f::Send, {blind}^{Right 5}
+CapsLock & m::Send, {blind}^{Left 5}
+CapsLock & .::Send, {blind}^{Right 5}
 
 ; Features
 ; CapsLock & b::Send, {blind}^{Left 2}
