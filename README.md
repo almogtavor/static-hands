@@ -1,5 +1,6 @@
-# hands-position-fixed-keyboard
- ⌨️ Remap keyboard keys in such way that doesn't require to move hands
+# Static Hands - a hands position fixed keyboard
+### (work-in-progress 👷🔧️👷‍♀️⛏)
+⌨️ Remap keyboard keys in such way that doesn't require to move hands
 
 ## Installation
 
