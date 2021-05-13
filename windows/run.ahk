@@ -23,8 +23,47 @@ CapsLock & s::Alt
 CapsLock & w::LWin
 
 ; Speed
-CapsLock & m::Send, {blind}^{Left 5}
-CapsLock & .::Send, {blind}^{Right 5}
+CapsLock & m::Send, {blind}^{Left 6}
+CapsLock & .::Send, {blind}^{Right 6}
+
+; Select Current Word
+CapsLock & q::Send, ^{Left}+^{Right}
+;     ; selText=tSe
+;     selText:=getSelText()
+;     if(selText="")
+;     {
+;         Send, ^{Left}
+;         Send, +^{Right}
+;     }
+;     else {
+;         Send, ^{Left}
+;         Send, +^{Right}
+;         Send, %selText%
+;         Send, +^{Right}
+;     }
+    
+; CapsLock & c::Send, ^{Left}+^{Right}
+; CapsLock & v::Send, ^{Left}+^{Right}
+
+getSelText()
+{
+    ClipboardOld:=ClipboardAll
+    Clipboard:=""
+    SendInput, ^{c}
+    ClipWait, 0.1
+    if(!ErrorLevel)
+    {
+        selText:=Clipboard
+        Clipboard:=ClipboardOld
+        StringRight, lastChar, selText, 1
+        if(Asc(lastChar)!=10) ;if last char is not line feed
+        {
+            return selText
+        }
+    }
+    Clipboard:=ClipboardOld
+    return
+}
 
 ; Features
 ; CapsLock & b::Send, {blind}^{Left 2}
