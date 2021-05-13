@@ -23,8 +23,5 @@ CapsLock & s::Alt
 CapsLock & w::LWin
 
 ; Speed
-CapsLock & m::Send, {blind}^{Left 5}
-CapsLock & .::Send, {blind}^{Right 5}
-
-; Features
-; CapsLock & b::Send, {blind}^{Left 2}
+CapsLock & m::Send, {blind}^{Left 6}
+CapsLock & .::Send, {blind}^{Right 6}
