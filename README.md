@@ -49,7 +49,6 @@ For Example the shortcut Ctrl+Left Arrow is a great shortcut, but in reality tha
 |CapsLock+d|Shift|
 |CapsLock+s|Alt|
 |CapsLock+w|Win Key|
-|CapsLock+q|Mark a word|
 
 
 * Notice one-click CapsLock still functions the same
