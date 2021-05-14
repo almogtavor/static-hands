@@ -13,7 +13,7 @@ Install [AutoHotKey](https://www.autohotkey.com/), clone project, open hands-pos
 #### To put ahk into effect automatically every time PC start
 
 * Select run.ahk, and press Ctrl+C.
-* Press Win+R to open the Run dialog, then enter shell: startup and click OK or Enter. This will open the Startup folder for the current user. To instead open the folder for all users, enter shell: common startup (however, in that case, you must be an administrator to proceed).
+* Press Win+R to open the Run dialog, then enter shell:startup and click OK or Enter. This will open the Startup folder for the current user. To instead open the folder for all users, enter shell: common startup (however, in that case, you must be an administrator to proceed).
 * Right-click inside the window, and click "Paste Shortcut". The shortcut to the script should now be in the Startup folder.
 
 
@@ -38,6 +38,7 @@ For Example the shortcut Ctrl+Left Arrow is a great shortcut, but in reality tha
 |CapsLock+o| To the end of the line (End)|
 |CapsLock+h| Delete|
 |CapsLock+;| Backspace|
+|CapsLock+'| Enter|
 |CapsLock+p| Insert|
 |CapsLock+y| PageUp|
 |CapsLock+n| PageDown|
