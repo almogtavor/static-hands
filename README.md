@@ -8,17 +8,15 @@ All of the shortcuts uses the CapsLock key, that 99% of programmers don't use 99
 
 ## Installation
 
-Install [AutoHotKey](https://www.autohotkey.com/), clone project, open hands-position-fixed-keyboard --> Windows --> open run.ahk with AutoHotkey.
+* **Option one**: Simply install the file by clicking the install-static-hands.exe.
+* **Option two**: Install [AutoHotKey](https://www.autohotkey.com/), clone project, open hands-position-fixed-keyboard --> Windows --> open run.ahk with AutoHotkey. To put ahk into effect automatically every time PC start
+  * Select run.ahk, and press Ctrl+C.
+  * Press Win+R to open the Run dialog, then enter shell:startup and click OK or Enter. This will open the Startup folder for the current user. To instead open the folder for all users, enter shell: common startup (however, in that case, you must be an administrator to proceed).
+  * Right-click inside the window, and click "Paste Shortcut". The shortcut to the script should now be in the Startup folder.
 
-#### To put ahk into effect automatically every time PC start
+## Static Hands vs Vim
 
-* Select run.ahk, and press Ctrl+C.
-* Press Win+R to open the Run dialog, then enter shell:startup and click OK or Enter. This will open the Startup folder for the current user. To instead open the folder for all users, enter shell: common startup (however, in that case, you must be an administrator to proceed).
-* Right-click inside the window, and click "Paste Shortcut". The shortcut to the script should now be in the Startup folder.
-
-
-## Static Hands vs Vim Mode
-Vim shortcuts are great, but they has a learning curve. These shortcuts are super simple and quick. If you are already a vim user, you don't need this repo. And for us non-Vim users. The feature Vim users praise the most is the ability to move the cursor without changing hand position (HJKL keys). They actually like it so much they write plugins for every other program in the world to support same shortcuts via “Vim modes”. The thing is that Vim mode is less intuitive (HJKL for arrows is much inconvenient than IJKL), and it forces more adaption time. 
+Vim shortcuts are great, but they has a learning curve. And not a short one. Static Hands' shortcuts are super simple and quick. If you are already a vim user, you don't need this repo. And for us non-Vim users. The feature Vim users praise the most is the ability to move the cursor without changing hand position (HJKL keys). They actually like it so much they write plugins for every other program in the world to support same shortcuts via “Vim modes”. The thing is that Vim mode is less intuitive (HJKL for arrows is much inconvenient than IJKL), and it forces more adaption time. 
 
 ## Basic Features
 

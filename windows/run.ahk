@@ -16,7 +16,6 @@ CapsLock & y::Send, {blind}{PgUp}
 CapsLock & n::Send, {blind}{PgDn}
 CapsLock & `;::Send, {blind}{Backspace}
 CapsLock & p::Send, {blind}{Insert}
-CapsLock & '::Send, {blind}{Enter}
 
 CapsLock & f::Ctrl
 CapsLock & d::Shift

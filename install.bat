@@ -1,4 +1,4 @@
 @ECHO OFF
-@REM copy %~dp0windows\run.ahk "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"
+copy %~dp0windows\run.ahk "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"
 start %~dp0windows\run.ahk
 PAUSE
