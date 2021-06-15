@@ -25,3 +25,5 @@ CapsLock & w::LWin
 ; Speed
 CapsLock & m::Send, {blind}^{Left 6}
 CapsLock & .::Send, {blind}^{Right 6}
+
+CapsLock & -::Winset, Alwaysontop, , A
