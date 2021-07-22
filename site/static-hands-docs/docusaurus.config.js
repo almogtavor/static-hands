@@ -17,7 +17,7 @@ module.exports = {
       title: "Static Hands",
       logo: {
         alt: "Static Hands Logo",
-        src: "img/logo.svg",
+        src: "img/icon.svg",
       },
       items: [
         {

@@ -19,7 +19,7 @@
 
 All of the shortcuts uses the CapsLock key, that 99% of programmers don't use 99% of their time. With static hands, you can let CapsLock turn your keyboard into a magical hands position fixed keyboard.
 
-* Irrelevant for Vim users.
+*Irrelevant for Vim users.
 
 ## Installation
 
