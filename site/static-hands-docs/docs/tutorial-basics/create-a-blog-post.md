@@ -2,28 +2,12 @@
 sidebar_position: 3
 ---
 
-# Create a Blog Post
+# Static Hands vs Vim
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
 
-## Create your first Post
 
-Create a file at `blog/2021-02-28-greetings.md`:
+Vim shortcuts are great, but they have a learning curve. And not a short one. Static Hands' shortcuts are super simple and quick. If you are already a vim user, you do not need this repo. And for us non-Vim users. 
 
-```md title="blog/2021-02-28-greetings.md"
----
-slug: greetings
-title: Greetings!
-author: Steven Hansel
-author_title: Docusaurus Contributor
-author_url: https://github.com/ShinteiMai
-author_image_url: https://github.com/ShinteiMai.png
-tags: [greetings]
----
+<img src="./../../static/img/icon.svg" alt="logo" width="300" height="250"/>
 
-Congratulations, you have made your first post!
-
-Feel free to play around and edit this post as much you like.
-```
-
-A new blog post is now available at `http://localhost:3000/blog/greetings`.
+The feature Vim users praise the most is the ability to move the cursor without changing hand position (HJKL keys). They actually like it so much they write plugins for every other program in the world to support the same shortcuts via “Vim modes”. The thing is that Vim mode is less intuitive (HJKL for arrows is much inconvenient than IJKL), and it forces more adaptation time.

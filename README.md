@@ -1,17 +1,10 @@
 <div align="center">
 	<br>
 	<a href="https://raw.githubusercontent.com/sindresorhus/css-in-readme-like-wat/main/readme.md">
-		<img src="icon.png" width="400" height="250" alt="Click to see the source">
+		<img src="icon.png" width="350" height="250" alt="Click to see the source">
 	</a>
 	<br>
 </div>
-
-<sup>
-    <br />
-    <br />
-    <br />
-</sup>
-
 
 # Static Hands - Turn your Unused CapsLock Key a Superhero 🦸‍♂️🚀
 
@@ -34,8 +27,7 @@ First of all, install [AutoHotKey](https://www.autohotkey.com/). Then:
 
 ## Static Hands vs Vim
 
-Vim shortcuts are great, but they has a learning curve. And not a short one. Static Hands' shortcuts are super simple and quick. If you are already a vim user, you don't need this repo. And for us non-Vim users. The feature Vim users praise the most is the ability to move the cursor without changing hand position (HJKL keys). They actually like it so much they write plugins for every other program in the world to support same shortcuts via “Vim modes”. The thing is that Vim mode is less intuitive (HJKL for arrows is much inconvenient than IJKL), and it forces more adaption time. 
-
+Vim shortcuts are great, but they have a learning curve. And not a short one. Static Hands' shortcuts are super simple and quick. If you are already a vim user, you do not need this repo. And for us non-Vim users. The feature Vim users praise the most is the ability to move the cursor without changing hand position (HJKL keys). They actually like it so much they write plugins for every other program in the world to support the same shortcuts via “Vim modes”. The thing is that Vim mode is less intuitive (HJKL for arrows is much inconvenient than IJKL), and it forces more adaptation time.
 ## Basic Features
 
 The Strength of these key bindings is in the shortcuts.
