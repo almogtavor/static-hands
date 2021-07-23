@@ -28,10 +28,11 @@ First of all, install [AutoHotKey](https://www.autohotkey.com/). Then:
 ## Static Hands vs Vim
 
 Vim shortcuts are great, but they have a learning curve. And not a short one. Static Hands' shortcuts are super simple and quick. If you are already a vim user, you do not need this repo. And for us non-Vim users. The feature Vim users praise the most is the ability to move the cursor without changing hand position (HJKL keys). They actually like it so much they write plugins for every other program in the world to support the same shortcuts via “Vim modes”. The thing is that Vim mode is less intuitive (HJKL for arrows is much inconvenient than IJKL), and it forces more adaptation time.
+
 ## Basic Features
 
 The Strength of these key bindings is in the shortcuts.
-For example the shortcut Ctrl+Left Arrow is a great shortcut, but in reality that forces us, developers, to move our hands to the sides. We can now use CapsLock+f+j and get the same results without any effort. It'll take some time to fully get used to it, but afterwards you'll can't live without it.
+For example the shortcut Ctrl+Left Arrow is a great shortcut, but in reality that forces us, developers, to move our hands to the sides. We can now use CapsLock+f+j and get the same results without any effort. It'll take some time to fully get used to it, but it will pay off.
 
 ### Available commands
 
