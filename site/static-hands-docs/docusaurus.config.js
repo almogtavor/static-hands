@@ -5,13 +5,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 module.exports = {
   title: "Static Hands",
   tagline: "Turn your Unused CapsLock Key a Superhero 🦸‍♂️🚀",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://almogtavor.github.io/static-hands/",
+  baseUrl: "/static-hands",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "almogtavor", // Usually your GitHub org/user name.
+  projectName: "static-hands", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Static Hands",
