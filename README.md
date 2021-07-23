@@ -34,10 +34,10 @@ Vim shortcuts are great, but they have a learning curve. And not a short one. St
 The Strength of these key bindings is in the shortcuts.
 For example the shortcut Ctrl+Left Arrow is a great shortcut, but in reality that forces us, developers, to move our hands to the sides. We can now use CapsLock+f+j and get the same results without any effort. It'll take some time to fully get used to it, but it will pay off.
 
-### Available commands
+### Available commands ⏱️
 
 #### Left and Right Hand Key Bindings
-|Key/Commands|Function|
+|Key/Commands|Function 💥|
 |:----------:|:-------|
 |CapsLock+j|Left|
 |CapsLock+k|Down|
@@ -64,7 +64,7 @@ For example the shortcut Ctrl+Left Arrow is a great shortcut, but in reality tha
 
 * Notice one-click CapsLock still functions the same
 
-### Speed
+### Speed ⚡️
 
 |Key/Commands|Function|
 |:----------:|:-------|
