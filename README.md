@@ -1,17 +1,10 @@
 <div align="center">
 	<br>
 	<a href="https://raw.githubusercontent.com/sindresorhus/css-in-readme-like-wat/main/readme.md">
-		<img src="icon.svg" width="400" height="250" alt="Click to see the source">
+		<img src="icon.png" width="350" height="250" alt="Click to see the source">
 	</a>
 	<br>
 </div>
-
-<sup>
-    <br />
-    <br />
-    <br />
-</sup>
-
 
 # Static Hands - Turn your Unused CapsLock Key a Superhero 🦸‍♂️🚀
 
@@ -19,7 +12,7 @@
 
 All of the shortcuts uses the CapsLock key, that 99% of programmers don't use 99% of their time. With static hands, you can let CapsLock turn your keyboard into a magical hands position fixed keyboard.
 
-* Irrelevant for Vim users.
+*Irrelevant for Vim users.
 
 ## Installation
 
@@ -34,12 +27,12 @@ First of all, install [AutoHotKey](https://www.autohotkey.com/). Then:
 
 ## Static Hands vs Vim
 
-Vim shortcuts are great, but they has a learning curve. And not a short one. Static Hands' shortcuts are super simple and quick. If you are already a vim user, you don't need this repo. And for us non-Vim users. The feature Vim users praise the most is the ability to move the cursor without changing hand position (HJKL keys). They actually like it so much they write plugins for every other program in the world to support same shortcuts via “Vim modes”. The thing is that Vim mode is less intuitive (HJKL for arrows is much inconvenient than IJKL), and it forces more adaption time. 
+Vim shortcuts are great, but they have a learning curve. And not a short one. Static Hands' shortcuts are super simple and quick. If you are already a vim user, you do not need this repo. And for us non-Vim users. The feature Vim users praise the most is the ability to move the cursor without changing hand position (HJKL keys). They actually like it so much they write plugins for every other program in the world to support the same shortcuts via “Vim modes”. The thing is that Vim mode is less intuitive (HJKL for arrows is much inconvenient than IJKL), and it forces more adaptation time.
 
 ## Basic Features
 
 The Strength of these key bindings is in the shortcuts.
-For example the shortcut Ctrl+Left Arrow is a great shortcut, but in reality that forces us, developers, to move our hands to the sides. We can now use CapsLock+f+j and get the same results without any effort. It'll take some time to fully get used to it, but afterwards you'll can't live without it.
+For example the shortcut Ctrl+Left Arrow is a great shortcut, but in reality that forces us, developers, to move our hands to the sides. We can now use CapsLock+f+j and get the same results without any effort. It'll take some time to fully get used to it, but it will pay off.
 
 ### Available commands
 
