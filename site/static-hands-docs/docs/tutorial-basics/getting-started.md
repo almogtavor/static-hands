@@ -16,7 +16,7 @@ Let's dive in!
 ### Available commands
 
 #### Left and Right Hand Key Bindings
-|Key/Commands|Function|
+|Key/Commands|Function💥|
 |:----------:|:-------|
 |CapsLock+j|Left|
 |CapsLock+k|Down|

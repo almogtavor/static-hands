@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # More Features!
 
-### Speed
+### Speed ⚡️
 
 |Key/Commands|Function|
 |:----------:|:-------|

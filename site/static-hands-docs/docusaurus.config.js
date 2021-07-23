@@ -26,9 +26,8 @@ module.exports = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/almogtavor/static-hands",
           label: "GitHub",
           position: "right",
         },
