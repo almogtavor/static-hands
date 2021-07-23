@@ -6,7 +6,7 @@ module.exports = {
   title: "Static Hands",
   tagline: "Turn your Unused CapsLock Key a Superhero 🦸‍♂️🚀",
   url: "https://almogtavor.github.io/static-hands/",
-  baseUrl: "/",
+  baseUrl: "/static-hands/",
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
