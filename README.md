@@ -6,13 +6,15 @@
 	<br>
 </div>
 
-# Static Hands - Turn your Unused CapsLock Key a Superhero 🦸‍♂️🚀
+# [Static Hands](https://almogtavor.github.io/static-hands/) - Turn your Unused CapsLock Key a Superhero 🦸‍♂️🚀
 
 ⌨️ Minimal shortcuts with CapsLock that doesn't require moving hands. Super simple. No learning curve.
 
 All of the shortcuts uses the CapsLock key, that 99% of programmers don't use 99% of their time. With static hands, you can let CapsLock turn your keyboard into a magical hands position fixed keyboard.
 
 *Irrelevant for Vim users.
+
+Click here for the [documentation](https://almogtavor.github.io/static-hands/).
 
 ## Installation
 
