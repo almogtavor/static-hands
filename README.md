@@ -24,7 +24,7 @@ The goal of `static-hands` is to enable the following features:
 <img align=center src="site\static-hands-docs\static\img\icons\moving-keys.png" width="250">
 
 Where "Super" means that each press is translated to 5/6 actual presses. 
-In a more details manner, the main key-bindings of `static-hands` are:
+In a more detailed manner, the main key-bindings of `static-hands` are:
 
 <img align=center src="site\static-hands-docs\static\img\icons\all-keyboard.png">
 
