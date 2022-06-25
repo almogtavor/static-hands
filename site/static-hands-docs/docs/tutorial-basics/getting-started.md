@@ -33,6 +33,9 @@ Let's dive in!
 |CapsLock++| Window always on top (toggle to turn off)|
 
 
+A demonstration of how these bindings really look:
+<img src="https://raw.githubusercontent.com/almogtavor/static-hands/main/site/static-hands-docs/static/img/icons/all-keyboard.png" alt="logo"/>
+
 #### Left Hand Key Bindings
 |Key/Commands|Function|
 |:----------:|:-------|
