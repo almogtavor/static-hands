@@ -30,7 +30,7 @@ Let's dive in!
 |CapsLock+p| Insert|
 |CapsLock+y| PageUp|
 |CapsLock+n| PageDown|
-|CapsLock+-| Window always on top (toggle to turn off)|
+|CapsLock++| Window always on top (toggle to turn off)|
 
 
 #### Left Hand Key Bindings

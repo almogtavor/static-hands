@@ -1,7 +1,7 @@
 <div align="center">
 	<br>
 	<a href="https://raw.githubusercontent.com/sindresorhus/css-in-readme-like-wat/main/readme.md">
-		<img src="icon.png" width="350" height="250" alt="Click to see the source">
+		<img src="site\static-hands-docs\static\img\icons\icon.png" width="350" height="250" alt="Click to see the source">
 	</a>
 	<br>
 </div>
@@ -15,6 +15,19 @@ All of the shortcuts uses the CapsLock key, that 99% of programmers don't use 99
 *Irrelevant for Vim users.
 
 Click here for the [documentation](https://almogtavor.github.io/static-hands/).
+
+## 10 Seconds Tutorial
+
+
+The goal of `static-hands` is to enable the following features:
+
+<img align=center src="site\static-hands-docs\static\img\icons\moving-keys.png" width="250">
+
+Where "Super" means that each press is translated to 5/6 actual presses. 
+In a more details manner, the main key-bindings of `static-hands` are:
+
+<img align=center src="site\static-hands-docs\static\img\icons\all-keyboard.png">
+
 
 ## Installation
 
@@ -53,7 +66,7 @@ For example the shortcut Ctrl+Left Arrow is a great shortcut, but in reality tha
 |CapsLock+p| Insert|
 |CapsLock+y| PageUp|
 |CapsLock+n| PageDown|
-|CapsLock+-| Window always on top (toggle to turn off)|
+|CapsLock++| Window always on top (toggle to turn off)|
 
 #### Left Hand Key Bindings
 |Key/Commands|Function|
@@ -70,14 +83,16 @@ For example the shortcut Ctrl+Left Arrow is a great shortcut, but in reality tha
 
 |Key/Commands|Function|
 |:----------:|:-------|
-|CapsLock+m| Move 5 words backward|
-|CapsLock+.| Move 5 words forward|
+|CapsLock+m| Left X 6|
+|CapsLock+,| Down X 5 |
+|CapsLock+8| Up X 5 |
+|CapsLock+.| Right X 6|
 
 
 ### Case Changing
 
 |Key/Commands|Function|
 |:----------:|:-------|
-|CapsLock+0|Upper Case|
-|CapsLock+9|Lower Case|
-|CapsLock+8|Title Case|
+|CapsLock+9|Upper Case|
+|CapsLock+0|Lower Case|
+|CapsLock+-|Title Case|
