@@ -8,14 +8,16 @@ sidebar_position: 2
 
 |Key/Commands|Function|
 |:----------:|:-------|
-|CapsLock+m| Move 5 words backward|
-|CapsLock+.| Move 5 words forward|
+|CapsLock+m| Left X 6|
+|CapsLock+,| Down X 5 |
+|CapsLock+8| Up X 5 |
+|CapsLock+.| Right X 6|
 
 
 ### Case Changing
 
 |Key/Commands|Function|
 |:----------:|:-------|
-|CapsLock+0|Upper Case|
-|CapsLock+9|Lower Case|
-|CapsLock+8|Title Case|
+|CapsLock+9|Upper Case|
+|CapsLock+0|Lower Case|
+|CapsLock+-|Title Case|
