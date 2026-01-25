@@ -7,9 +7,9 @@ chmod +x install.sh
 ```
 
 **Important:** After installation, you must manually enable the rule in Karabiner-Elements:
-1. Open Karabiner-Elements
+1. Install [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 2. Go to "Complex Modifications" tab
-3. Click "Add rule"
+3. Click "Add predefined rule"
 4. Find "Static Hands - Basic (macOS)"
 5. Click "Enable"
 
