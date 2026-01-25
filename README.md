@@ -96,3 +96,10 @@ For example, the shortcut Ctrl+Left Arrow is a great shortcut, but in reality th
 |CapsLock+9|Upper Case|
 |CapsLock+0|Lower Case|
 |CapsLock+-|Title Case|
+
+
+## Community
+Check out these community ports and extensions:
+- Linux port: [github.com/solabhq/static-hands-linux](https://github.com/solabhq/static-hands-linux)
+- macOS port: [github.com/solabhq/static-hands-macos](https://github.com/solabhq/static-hands-macos)
+- Windows Advanced: [github.com/solabhq/static-hands-advanced](https://github.com/solabhq/static-hands-advanced)
