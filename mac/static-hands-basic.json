@@ -1,0 +1,564 @@
+{
+  "title": "Static Hands - Basic",
+  "rules": [
+    {
+      "description": "Static Hands Basic Configuration",
+      "manipulators": [
+        {
+          "description": "Core: CapsLock acts as a modifier (single press disabled)",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "caps_lock_is_on",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "caps_lock_is_on",
+                "value": 0
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + I: Up Arrow",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + J: Left Arrow",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + L: Right Arrow",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + K: Down Arrow",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + U: Home",
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "home"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + O: End",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "end"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + H: Delete",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + Y: Page Up",
+          "from": {
+            "key_code": "y",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_up"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + N: Page Down",
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_down"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + Semicolon: Backspace",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + P: Insert (F13 as Insert equivalent on macOS)",
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f13"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + 4: LaTeX $$ (dollar signs with space)",
+          "from": {
+            "key_code": "4",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifiers": ["left_shift"]
+            },
+            {
+              "key_code": "4",
+              "modifiers": ["left_shift"]
+            },
+            {
+              "key_code": "spacebar"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + F: Hold Control",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_control",
+              "lazy": true
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + D: Hold Shift",
+          "from": {
+            "key_code": "d",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift",
+              "lazy": true
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + S: Hold Option (Alt)",
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_option",
+              "lazy": true
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + W: Hold Command (Win)",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_command",
+              "lazy": true
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + 8: Up x5 (Speed Navigation)",
+          "from": {
+            "key_code": "8",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            },
+            {
+              "key_code": "up_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + M: Left x6 (Speed Navigation)",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            },
+            {
+              "key_code": "left_arrow"
+            },
+            {
+              "key_code": "left_arrow"
+            },
+            {
+              "key_code": "left_arrow"
+            },
+            {
+              "key_code": "left_arrow"
+            },
+            {
+              "key_code": "left_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + Period: Right x6 (Speed Navigation)",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            },
+            {
+              "key_code": "right_arrow"
+            },
+            {
+              "key_code": "right_arrow"
+            },
+            {
+              "key_code": "right_arrow"
+            },
+            {
+              "key_code": "right_arrow"
+            },
+            {
+              "key_code": "right_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + Comma: Down x5 (Speed Navigation)",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            },
+            {
+              "key_code": "down_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "CapsLock + Equal: Toggle Always On Top (using Rectangle app or similar)",
+          "from": {
+            "key_code": "equal_sign",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "osascript -e 'tell application \"System Events\" to set frontmost of first process whose frontmost is true to false' && sleep 0.1 && osascript -e 'tell application \"System Events\" to set frontmost of first process whose name is not \"System Events\" to true'"
+            }
+          ],
+          "conditions": [
+            {
+              "name": "caps_lock_is_on",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
