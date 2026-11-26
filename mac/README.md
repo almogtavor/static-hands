@@ -54,8 +54,10 @@ CapsLock + N = Page down
 **Keys not working?**
 - Check Karabiner-Elements is running
 - Verify the rule is **enabled** (not just added) in Complex Modifications
-- Grant Input Monitoring permissions
-- System Settings → Privacy & Security → Input Monitoring
+- Turn on all three approvals in System Settings (nothing works until they are on):
+  1. General → Login Items & Extensions → Allow in the Background: every Karabiner-Elements entry (some are listed as "Fumihiko Takayama")
+  2. Same page → Extensions → Driver Extensions → ⓘ: `Karabiner-DriverKit-VirtualHIDDevice`
+  3. Privacy & Security → Input Monitoring: `Karabiner-Core-Service`
 
 **Need document start/end instead of line start/end?**
 - Basic edition only supports line start/end

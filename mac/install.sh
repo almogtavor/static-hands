@@ -190,14 +190,18 @@ finish() {
     step "Static Hands is installed 🎉"
     cat <<EOF
 
-${BOLD}One thing left that only you can do:${NC} macOS asks you to approve Karabiner-Elements.
-The Karabiner-Elements window that just opened walks you through it. Allow each
-item it lists (you only do this once):
+${BOLD}One thing left that only you can do:${NC} nothing works until you approve
+Karabiner-Elements. Open ${BOLD}System Settings${NC} and turn on these three switches
+(you only do this once):
 
-  • Background services
-  • Accessibility
-  • Input Monitoring
-  • Driver Extension
+  1. General → Login Items & Extensions → Allow in the Background:
+     every Karabiner-Elements entry (some are listed as "Fumihiko Takayama")
+  2. Same page → Extensions → Driver Extensions → (i):
+     Karabiner-DriverKit-VirtualHIDDevice (asks for your password)
+  3. Privacy & Security → Input Monitoring:
+     Karabiner-Core-Service
+
+If macOS also asks to allow Karabiner-Elements under Accessibility, allow it.
 
 Then try it in any text field: hold ${BOLD}CapsLock${NC} and press ${BOLD}I / J / K / L${NC} to move the cursor.
 
