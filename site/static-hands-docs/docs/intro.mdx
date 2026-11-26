@@ -2,36 +2,24 @@
 sidebar_position: 1
 ---
 
+import OsTabs, { OsTab, DownloadButton, Shot } from "@site/src/components/OsTabs";
+
 # Installation
 
 Let's discover **Static Hands in less than 5 minutes**.
 
-export const Highlight = ({ children, color }) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: "20px",
-      color: "#fff",
-      padding: "10px",
-      cursor: "pointer",
-    }}
-    onClick={() => {
-      window.location.assign(
-        "https://github.com/almogtavor/static-hands/releases/download/1.2.0/install.exe"
-      );
-    }}
-  >
-    {children}
-  </span>
-);
+Pick your operating system. The tab for the computer you are on right now opens automatically.
 
-## Download Static Hands
+<OsTabs>
+<OsTab os="windows">
+
+## Download Static Hands for Windows
 
 - **Option one**: Click the following button and install the "install.exe" file.
 
-  **<Highlight color="#25c2a0">Click to Immediately Install !</Highlight>**
-
-<br />
+<DownloadButton to="https://github.com/almogtavor/static-hands/releases/download/1.2.0/install.exe">
+  Click to Immediately Install !
+</DownloadButton>
 
 :::caution
 Notice that the exe has been compiled without certificates.
@@ -58,3 +46,84 @@ If you prefer not to install an exe, you can go with **option two**.
     This will open the Startup folder for the current user.
 
   - Right-click inside the window, and click "Paste Shortcut". The shortcut to the script should now be in the Startup folder.
+
+</OsTab>
+<OsTab os="mac">
+
+## Download Static Hands for macOS
+
+<DownloadButton to="/downloads/StaticHands.dmg">Download for Mac (.dmg)</DownloadButton>
+
+The installer does everything it can for you: it installs
+[Karabiner-Elements](https://karabiner-elements.pqrs.org/) (the free app that remaps the keys) if you
+don't have it, adds the Static Hands rules, and switches them on. What is left are a few
+clicks that macOS only accepts from you. Here is each one.
+
+### 1. Open the download and double-click the installer
+
+Open `StaticHands.dmg` from your Downloads folder, then double-click **Install Static Hands**.
+
+<Shot src="mac/step-1-open-dmg.svg" alt="The Static Hands window with the Install Static Hands file" />
+
+### 2. Tell macOS it is OK to open it
+
+Static Hands is free and not signed with a paid Apple certificate, so the first time macOS
+says it could not verify the file. Click **Done**, then:
+
+1. Open **System Settings → Privacy & Security**.
+2. Scroll down to **Security** and click **Open Anyway**.
+3. Confirm with your password or Touch ID.
+
+<Shot src="mac/step-2-open-anyway.svg" alt="Privacy and Security settings with the Open Anyway button" />
+
+On macOS 14 or older you can instead right-click **Install Static Hands** and choose **Open**.
+
+:::tip Prefer to skip this step?
+Open the **Terminal** app, paste this line and press Enter. It runs the same installer, and
+macOS does not ask about it:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/almogtavor/static-hands/main/mac/install.sh | bash
+```
+
+:::
+
+### 3. Let the installer run
+
+A Terminal window opens and does the work. If Karabiner-Elements is not on your Mac yet, its
+own installer appears: click **Continue**, then **Install**, and enter your password.
+
+### 4. Allow Karabiner-Elements
+
+Any app that changes what your keys do needs your permission. When the installer finishes,
+the Karabiner-Elements window opens and lists what to allow. Go through its list and turn
+each item on. You only do this once.
+
+<Shot src="mac/step-3-allow-karabiner.svg" alt="The four permissions Karabiner-Elements asks for" />
+
+The pictures here are simplified drawings, so the windows on your Mac look a little
+different depending on your macOS version. If Karabiner-Elements shows no list, it already
+has everything it needs.
+
+### 5. Try it
+
+Click into any text field, hold **CapsLock** and press **I**, **J**, **K** or **L**.
+
+<Shot src="mac/step-4-try-it.svg" alt="Hold CapsLock and press I, J, K or L to move the cursor" />
+
+:::note Differences on a Mac
+
+- **CapsLock + U / O** send the Mac's Home / End keys, which many Mac apps treat as "top / bottom of the document".
+- The left-hand modifiers are **F** = Option, **D** = Shift, **S** = Control, **W** = Command.
+- Pressing CapsLock on its own no longer toggles capital letters.
+
+:::
+
+### Turning it off
+
+Open **Karabiner-Elements → Complex Modifications** and click the trash icon next to
+**Static Hands Basic Configuration**. Your previous Karabiner settings are also backed up in
+`~/.config/karabiner/backups` every time the installer runs.
+
+</OsTab>
+</OsTabs>

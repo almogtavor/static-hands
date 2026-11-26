@@ -44,6 +44,12 @@ First of all, install [AutoHotKey](https://www.autohotkey.com/). Then:
   * Right-click inside the window, and click "Paste Shortcut". The shortcut to the script should now be in the Startup folder.
 </details>
 
+<details>
+  <summary>For the macOS installation tutorial:</summary>
+
+Download [StaticHands.dmg](https://almogtavor.github.io/static-hands/downloads/StaticHands.dmg), open it and double-click **Install Static Hands**. It installs [Karabiner-Elements](https://karabiner-elements.pqrs.org/) if needed and enables the Static Hands rules for you. See the [step-by-step guide with pictures](https://almogtavor.github.io/static-hands/docs/intro), or [mac/README.md](mac/README.md) for details.
+</details>
+
 ## Static Hands vs Vim
 
 Vim shortcuts are great, but they have a learning curve. And not a short one. Static Hands' shortcuts are super simple and quick.

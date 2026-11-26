@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 330" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <title>The Static Hands disk image window with the Install Static Hands file</title>
+  <rect width="620" height="330" fill="#eef1f5"/>
+  <!-- Finder window -->
+  <rect x="90" y="34" width="440" height="262" rx="12" fill="#ffffff" stroke="#c9ced6"/>
+  <path d="M90 46a12 12 0 0 1 12-12h416a12 12 0 0 1 12 12v26H90z" fill="#e6e8ec"/>
+  <circle cx="112" cy="53" r="6" fill="#ff5f57"/>
+  <circle cx="132" cy="53" r="6" fill="#febc2e"/>
+  <circle cx="152" cy="53" r="6" fill="#28c840"/>
+  <text x="310" y="58" text-anchor="middle" font-size="14" font-weight="600" fill="#3b4048">Static Hands</text>
+  <!-- file icon -->
+  <rect x="268" y="104" width="84" height="84" rx="14" fill="#25c2a0" opacity="0.18"/>
+  <rect x="274" y="110" width="72" height="72" rx="10" fill="#1f2630"/>
+  <text x="286" y="142" font-size="15" font-family="Menlo, Consolas, monospace" fill="#25c2a0">&gt;_</text>
+  <rect x="286" y="154" width="36" height="4" rx="2" fill="#5b6470"/>
+  <rect x="286" y="164" width="24" height="4" rx="2" fill="#5b6470"/>
+  <rect x="232" y="198" width="156" height="24" rx="6" fill="#2f6fed"/>
+  <text x="310" y="215" text-anchor="middle" font-size="13" fill="#ffffff">Install Static Hands</text>
+  <!-- callout -->
+  <path d="M452 150h-78" stroke="#e5484d" stroke-width="3" fill="none"/>
+  <path d="M374 150l14-8v16z" fill="#e5484d"/>
+  <rect x="408" y="100" width="150" height="38" rx="19" fill="#e5484d"/>
+  <text x="483" y="124" text-anchor="middle" font-size="14" font-weight="600" fill="#ffffff">Double-click this</text>
+  <text x="310" y="270" text-anchor="middle" font-size="12" fill="#7a828e">1 item</text>
+</svg>

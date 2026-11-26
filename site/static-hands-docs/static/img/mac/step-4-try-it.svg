@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 250" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <title>Hold CapsLock and press I, J, K or L to move the cursor</title>
+  <rect width="620" height="250" fill="#eef1f5"/>
+  <!-- caps lock -->
+  <rect x="50" y="112" width="150" height="62" rx="10" fill="#25c2a0"/>
+  <rect x="50" y="112" width="150" height="56" rx="10" fill="#2fd6b1"/>
+  <text x="125" y="146" text-anchor="middle" font-size="16" font-weight="700" fill="#0d3b31">caps lock</text>
+  <text x="125" y="200" text-anchor="middle" font-size="13" font-weight="600" fill="#3b4048">hold</text>
+  <text x="244" y="150" text-anchor="middle" font-size="30" font-weight="300" fill="#7a828e">+</text>
+  <!-- IJKL -->
+  <g font-size="20" font-weight="700" fill="#1f2630" text-anchor="middle">
+    <g>
+      <rect x="388" y="40" width="62" height="62" rx="10" fill="#c9ced6"/>
+      <rect x="388" y="40" width="62" height="56" rx="10" fill="#ffffff"/>
+      <text x="419" y="68">I</text>
+      <text x="419" y="88" font-size="14" fill="#25a58a">↑</text>
+    </g>
+    <g>
+      <rect x="318" y="112" width="62" height="62" rx="10" fill="#c9ced6"/>
+      <rect x="318" y="112" width="62" height="56" rx="10" fill="#ffffff"/>
+      <text x="349" y="140">J</text>
+      <text x="349" y="160" font-size="14" fill="#25a58a">←</text>
+    </g>
+    <g>
+      <rect x="388" y="112" width="62" height="62" rx="10" fill="#c9ced6"/>
+      <rect x="388" y="112" width="62" height="56" rx="10" fill="#ffffff"/>
+      <text x="419" y="140">K</text>
+      <text x="419" y="160" font-size="14" fill="#25a58a">↓</text>
+    </g>
+    <g>
+      <rect x="458" y="112" width="62" height="62" rx="10" fill="#c9ced6"/>
+      <rect x="458" y="112" width="62" height="56" rx="10" fill="#ffffff"/>
+      <text x="489" y="140">L</text>
+      <text x="489" y="160" font-size="14" fill="#25a58a">→</text>
+    </g>
+  </g>
+  <text x="419" y="200" text-anchor="middle" font-size="13" font-weight="600" fill="#3b4048">press to move the cursor</text>
+</svg>
