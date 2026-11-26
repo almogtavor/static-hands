@@ -1,49 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
-  <title>The four things macOS asks you to allow for Karabiner-Elements</title>
-  <rect width="620" height="360" fill="#eef1f5"/>
-  <rect x="70" y="24" width="480" height="312" rx="12" fill="#ffffff" stroke="#c9ced6"/>
-  <path d="M70 36a12 12 0 0 1 12-12h456a12 12 0 0 1 12 12v26H70z" fill="#e6e8ec"/>
-  <circle cx="92" cy="43" r="6" fill="#ff5f57"/>
-  <circle cx="112" cy="43" r="6" fill="#febc2e"/>
-  <circle cx="132" cy="43" r="6" fill="#28c840"/>
-  <text x="310" y="48" text-anchor="middle" font-size="14" font-weight="600" fill="#3b4048">Karabiner-Elements needs your OK</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <title>The switches to turn on for Karabiner-Elements in System Settings</title>
+  <rect width="620" height="400" fill="#eef1f5"/>
+  <rect x="50" y="24" width="520" height="352" rx="12" fill="#ffffff" stroke="#c9ced6"/>
+  <path d="M50 36a12 12 0 0 1 12-12h496a12 12 0 0 1 12 12v26H50z" fill="#e6e8ec"/>
+  <circle cx="72" cy="43" r="6" fill="#ff5f57"/>
+  <circle cx="92" cy="43" r="6" fill="#febc2e"/>
+  <circle cx="112" cy="43" r="6" fill="#28c840"/>
+  <text x="310" y="48" text-anchor="middle" font-size="14" font-weight="600" fill="#3b4048">System Settings</text>
 
   <g font-size="14" fill="#1f2630">
-    <g>
-      <rect x="94" y="80" width="432" height="52" rx="10" fill="#f6f7f9" stroke="#e1e4e9"/>
-      <circle cx="120" cy="106" r="13" fill="#25c2a0"/>
-      <text x="120" y="111" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">1</text>
-      <text x="146" y="102" font-weight="600">Background services</text>
-      <text x="146" y="120" font-size="11.5" fill="#7a828e">lets Karabiner start with your Mac</text>
-      <rect x="466" y="94" width="44" height="24" rx="12" fill="#34c759"/>
-      <circle cx="498" cy="106" r="10" fill="#fff"/>
-    </g>
-    <g>
-      <rect x="94" y="142" width="432" height="52" rx="10" fill="#f6f7f9" stroke="#e1e4e9"/>
-      <circle cx="120" cy="168" r="13" fill="#25c2a0"/>
-      <text x="120" y="173" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2</text>
-      <text x="146" y="164" font-weight="600">Accessibility</text>
-      <text x="146" y="182" font-size="11.5" fill="#7a828e">Privacy &amp; Security → Accessibility</text>
-      <rect x="466" y="156" width="44" height="24" rx="12" fill="#34c759"/>
-      <circle cx="498" cy="168" r="10" fill="#fff"/>
-    </g>
-    <g>
-      <rect x="94" y="204" width="432" height="52" rx="10" fill="#f6f7f9" stroke="#e1e4e9"/>
-      <circle cx="120" cy="230" r="13" fill="#25c2a0"/>
-      <text x="120" y="235" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">3</text>
-      <text x="146" y="226" font-weight="600">Input Monitoring</text>
-      <text x="146" y="244" font-size="11.5" fill="#7a828e">Privacy &amp; Security → Input Monitoring</text>
-      <rect x="466" y="218" width="44" height="24" rx="12" fill="#34c759"/>
-      <circle cx="498" cy="230" r="10" fill="#fff"/>
-    </g>
-    <g>
-      <rect x="94" y="266" width="432" height="52" rx="10" fill="#f6f7f9" stroke="#e1e4e9"/>
-      <circle cx="120" cy="292" r="13" fill="#25c2a0"/>
-      <text x="120" y="297" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">4</text>
-      <text x="146" y="288" font-weight="600">Driver Extension</text>
-      <text x="146" y="306" font-size="11.5" fill="#7a828e">the virtual keyboard Karabiner types with</text>
-      <rect x="466" y="280" width="44" height="24" rx="12" fill="#34c759"/>
-      <circle cx="498" cy="292" r="10" fill="#fff"/>
-    </g>
+    <!-- 1 -->
+    <text x="74" y="88" font-size="11.5" font-weight="600" fill="#7a828e">GENERAL → LOGIN ITEMS &amp; EXTENSIONS → ALLOW IN THE BACKGROUND</text>
+    <rect x="74" y="96" width="472" height="52" rx="10" fill="#f6f7f9" stroke="#e1e4e9"/>
+    <circle cx="100" cy="122" r="13" fill="#25c2a0"/>
+    <text x="100" y="127" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">1</text>
+    <text x="126" y="118" font-weight="600">Karabiner-Elements</text>
+    <text x="126" y="136" font-size="11.5" fill="#7a828e">every entry; some are listed as "Fumihiko Takayama"</text>
+    <rect x="486" y="110" width="44" height="24" rx="12" fill="#34c759"/>
+    <circle cx="518" cy="122" r="10" fill="#fff"/>
+
+    <!-- 2 -->
+    <text x="74" y="176" font-size="11.5" font-weight="600" fill="#7a828e">SAME PAGE → EXTENSIONS → DRIVER EXTENSIONS → ⓘ</text>
+    <rect x="74" y="184" width="472" height="52" rx="10" fill="#f6f7f9" stroke="#e1e4e9"/>
+    <circle cx="100" cy="210" r="13" fill="#25c2a0"/>
+    <text x="100" y="215" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2</text>
+    <text x="126" y="206" font-weight="600">Karabiner-DriverKit-VirtualHIDDevice</text>
+    <text x="126" y="224" font-size="11.5" fill="#7a828e">asks for your Mac password</text>
+    <rect x="486" y="198" width="44" height="24" rx="12" fill="#34c759"/>
+    <circle cx="518" cy="210" r="10" fill="#fff"/>
+
+    <!-- 3 -->
+    <text x="74" y="264" font-size="11.5" font-weight="600" fill="#7a828e">PRIVACY &amp; SECURITY → INPUT MONITORING</text>
+    <rect x="74" y="272" width="472" height="52" rx="10" fill="#f6f7f9" stroke="#e1e4e9"/>
+    <circle cx="100" cy="298" r="13" fill="#25c2a0"/>
+    <text x="100" y="303" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">3</text>
+    <text x="126" y="294" font-weight="600">Karabiner-Core-Service</text>
+    <text x="126" y="312" font-size="11.5" fill="#7a828e">lets Karabiner see the keys you press</text>
+    <rect x="486" y="286" width="44" height="24" rx="12" fill="#34c759"/>
+    <circle cx="518" cy="298" r="10" fill="#fff"/>
   </g>
+  <text x="310" y="354" text-anchor="middle" font-size="12" fill="#7a828e">All three switches on = CapsLock + I J K L starts working.</text>
 </svg>
