@@ -2,19 +2,32 @@
   margin-bottom: 2rem;
 }
 
+.osTabs :global(.tabs) {
+  align-items: stretch;
+}
+
+/* Every tab is a centered row of the same height, with or without the badge. */
 .tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 3rem;
   font-size: 1.05rem;
+  line-height: 1;
 }
 
 .detected {
-  margin-left: 0.5rem;
-  padding: 0.1rem 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.55rem;
+  border: 1px solid var(--ifm-color-primary);
   border-radius: 999px;
-  background: var(--ifm-color-primary);
-  color: #fff;
-  font-size: 0.7rem;
+  color: var(--ifm-color-primary);
+  font-size: 0.65rem;
   font-weight: 600;
-  vertical-align: middle;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   white-space: nowrap;
 }
 
