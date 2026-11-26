@@ -1,0 +1,55 @@
+name: Deploy docs
+
+# Builds the Docusaurus site in site/static-hands-docs.
+# On pull requests it only builds (to catch breakage); on pushes to main it
+# also publishes the result to the gh-pages branch, which GitHub Pages serves.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/static-hands-docs/**"
+      - ".github/workflows/deploy-docs.yml"
+  pull_request:
+    paths:
+      - "site/static-hands-docs/**"
+      - ".github/workflows/deploy-docs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-docs-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site/static-hands-docs
+    steps:
+      - uses: actions/checkout@v4
+
+      # Docusaurus 2.0.0-beta.3 predates Node 17's OpenSSL 3, so stay on 16.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 16
+          cache: npm
+          cache-dependency-path: site/static-hands-docs/package-lock.json
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Publish to gh-pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site/static-hands-docs/build
+          publish_branch: gh-pages
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          full_commit_message: "Deploy website - based on ${{ github.sha }}"
