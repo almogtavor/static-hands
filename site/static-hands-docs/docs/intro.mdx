@@ -77,15 +77,35 @@ then **Install**, and enter your password.
 
 ### 3. Allow Karabiner-Elements
 
-Any app that changes what your keys do needs your permission. When the installer finishes,
-the Karabiner-Elements window opens and lists what to allow. Go through its list and turn
-each item on. You only do this once.
+Any app that changes what your keys do needs your permission, and **nothing works until
+you give it**. macOS does not always ask on its own, so open **System Settings** (Apple
+menu  → System Settings) and turn on these three switches. You only do this once.
 
-<Shot src="mac/step-3-allow-karabiner.svg" alt="The four permissions Karabiner-Elements asks for" />
+1. **Background services.** Go to **General → Login Items & Extensions**. Under
+   **Allow in the Background**, turn on every Karabiner-Elements entry. Some of them are
+   listed under the developer's name, **Fumihiko Takayama**. Turn those on too.
+2. **Driver extension.** On the same page, scroll down to **Extensions**, click the **ⓘ**
+   next to **Driver Extensions**, turn on **Karabiner-DriverKit-VirtualHIDDevice** and
+   enter your Mac password.
+3. **Input Monitoring.** Go to **Privacy & Security → Input Monitoring** and turn on
+   **Karabiner-Core-Service**. If it is not in the list yet, do steps 1 and 2 first and
+   look again.
 
-The pictures here are simplified drawings, so the windows on your Mac look a little
-different depending on your macOS version. If Karabiner-Elements shows no list, it already
-has everything it needs.
+<Shot src="mac/step-3-allow-karabiner.svg" alt="The three switches to turn on for Karabiner-Elements in System Settings" />
+
+If macOS shows a pop-up asking to allow Karabiner-Elements under **Accessibility**, allow
+that as well.
+
+:::tip Still nothing when you hold CapsLock?
+
+Go through the three switches again; one that is still off is almost always the reason.
+Then quit Karabiner-Elements from its menu bar icon and open it again, or restart your Mac.
+
+:::
+
+The picture is a simplified drawing and the names are from macOS 15 (Sequoia). On macOS 13
+and 14 the first switch is under **General → Login Items**, and the driver extension is
+approved with an **Allow** button in **Privacy & Security**.
 
 ### 4. Try it
 

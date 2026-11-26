@@ -1,7 +1,7 @@
 <div align="center">
 	<br>
 	<a href="https://raw.githubusercontent.com/sindresorhus/css-in-readme-like-wat/main/readme.md">
-		<img src="site\static-hands-docs\static\img\icons\icon.png" width="350" height="250" alt="Click to see the source">
+		<img src="site/static-hands-docs/static/img/logo-keys.svg" width="300" alt="Static Hands: the I, J, K and L keys">
 	</a>
 	<br>
 </div>
