@@ -1,0 +1,32 @@
+.osTabs {
+  margin-bottom: 2rem;
+}
+
+.tab {
+  font-size: 1.05rem;
+}
+
+.detected {
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.panel {
+  padding-top: 1.25rem;
+}
+
+.shot {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  margin: 0.75rem 0 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+}
