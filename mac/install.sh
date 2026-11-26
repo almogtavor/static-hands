@@ -2,9 +2,8 @@
 #
 # Static Hands installer for macOS (Karabiner-Elements)
 #
-# Runs without prompts, so it works both ways:
-#   * double-click "Install Static Hands.command" from the DMG
-#   * curl -fsSL https://raw.githubusercontent.com/almogtavor/static-hands/main/mac/install.sh | bash
+# Runs without prompts. Install with:
+#   curl -fsSL https://raw.githubusercontent.com/almogtavor/static-hands/main/mac/install.sh | bash
 #
 # What it does:
 #   1. Installs Karabiner-Elements if it is missing

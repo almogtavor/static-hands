@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206 140" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <title>Static Hands: the I, J, K and L keys</title>
+  <g font-size="34" font-weight="800" fill="#1f2630" text-anchor="middle" stroke-linejoin="round">
+    <g>
+      <rect x="72" y="2" width="62" height="64" rx="11" fill="#aab2bd" stroke="#8c95a1" stroke-width="3"/>
+      <rect x="72" y="2" width="62" height="56" rx="11" fill="#ffffff" stroke="#8c95a1" stroke-width="3"/>
+      <text x="103" y="42">I</text>
+    </g>
+    <g>
+      <rect x="2" y="74" width="62" height="64" rx="11" fill="#aab2bd" stroke="#8c95a1" stroke-width="3"/>
+      <rect x="2" y="74" width="62" height="56" rx="11" fill="#ffffff" stroke="#8c95a1" stroke-width="3"/>
+      <text x="33" y="114">J</text>
+    </g>
+    <g>
+      <rect x="72" y="74" width="62" height="64" rx="11" fill="#aab2bd" stroke="#8c95a1" stroke-width="3"/>
+      <rect x="72" y="74" width="62" height="56" rx="11" fill="#ffffff" stroke="#8c95a1" stroke-width="3"/>
+      <text x="103" y="114">K</text>
+    </g>
+    <g>
+      <rect x="142" y="74" width="62" height="64" rx="11" fill="#aab2bd" stroke="#8c95a1" stroke-width="3"/>
+      <rect x="142" y="74" width="62" height="56" rx="11" fill="#ffffff" stroke="#8c95a1" stroke-width="3"/>
+      <text x="173" y="114">L</text>
+    </g>
+  </g>
+</svg>

@@ -2,16 +2,14 @@ Simple CapsLock-based navigation. Perfect for getting started.
 
 ## Installation
 
-Easiest: download [StaticHands.dmg](https://almogtavor.github.io/static-hands/downloads/StaticHands.dmg), open it and double-click **Install Static Hands**. The [installation guide](https://almogtavor.github.io/static-hands/docs/intro) shows every step with pictures.
-
-Or from Terminal:
+Open the **Terminal** app, paste this line and press Enter:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/almogtavor/static-hands/main/mac/install.sh | bash
 ```
 
-The installer installs [Karabiner-Elements](https://karabiner-elements.pqrs.org/) if it is missing, copies the rules and enables them in your active Karabiner profile (your previous `karabiner.json` is backed up to `~/.config/karabiner/backups`). The only manual part is approving Karabiner-Elements when macOS asks: background services, Accessibility, Input Monitoring and the Driver Extension.
+The [installation guide](https://almogtavor.github.io/static-hands/docs/intro) shows every step with pictures.
 
-Maintainers: rebuild the DMG with `./mac/build-dmg.sh` after changing `install.sh` or the rules.
+The installer installs [Karabiner-Elements](https://karabiner-elements.pqrs.org/) if it is missing, copies the rules and enables them in your active Karabiner profile (your previous `karabiner.json` is backed up to `~/.config/karabiner/backups`). The only manual part is approving Karabiner-Elements when macOS asks: background services, Accessibility, Input Monitoring and the Driver Extension.
 
 ## Key Mappings
 
